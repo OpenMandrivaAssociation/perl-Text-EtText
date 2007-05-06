@@ -1,7 +1,7 @@
 %define module  Text-EtText
 %define name	perl-Text-EtText
 %define version	2.2
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary:	%{module} module for perl 
 Name:		%{name}
