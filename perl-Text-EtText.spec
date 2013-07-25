@@ -5,11 +5,11 @@
 
 Summary:	%{module} module for perl 
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Version:	%perl_convert_version 2.2
+Release:	1
 License:	GPL
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/%{module}-%{version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-EtText-2.2.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
@@ -59,7 +59,7 @@ perl Makefile.PL INSTALLDIRS=vendor </dev/null
 - rebuild
 
 
-* Fri Apr 28 2006 Nicolas Lécureuil <neoclust@mandriva.org> 2.2-5mdk
+* Fri Apr 28 2006 Nicolas LÃ©cureuil <neoclust@mandriva.org> 2.2-5mdk
 - Fix SPEC according to Perl Policy
 	- Source URL
 	- URL
@@ -68,11 +68,12 @@ perl Makefile.PL INSTALLDIRS=vendor </dev/null
 * Wed Nov 09 2005 Austin Acton <austin@mandriva.org> 2.2-4mdk
 - Rebuild
 
-* Thu Aug 14 2003 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 2.2-3mdk
+* Thu Aug 14 2003 Per Ã˜yvind Karlsen <peroyvind@linux-mandrake.com> 2.2-3mdk
 - rebuild for new perl
 - drop $RPM_OPT_FLAGS, noarch..
 - use %%makeinstall_std macro
 
 * Tue May 27 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.2-2mdk
 - rebuild for new auto{prov,req}
+
 
