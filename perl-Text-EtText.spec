@@ -4,7 +4,7 @@
 Summary:	%{module} module for perl 
 Name:		perl-%{module}
 Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Perl
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-EtText-%{upstream_version}.tar.gz
