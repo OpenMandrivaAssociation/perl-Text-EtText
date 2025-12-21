@@ -9,6 +9,7 @@ License:	GPL
 Group:		Development/Perl
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-EtText-%{upstream_version}.tar.gz
 Url:		https://search.cpan.org/dist/%{module}
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
 
