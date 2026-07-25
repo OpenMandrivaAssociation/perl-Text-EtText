@@ -3,12 +3,12 @@
 
 Summary:	%{module} module for perl 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	12
+Version:	%{upstream_version}
+Release:	13
 License:	GPL
 Group:		Development/Perl
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Text/Text-EtText-%{upstream_version}.tar.gz
-Url:		https://search.cpan.org/dist/%{module}
+Source0:	https://cpan.metacpan.org/authors/id/J/JM/JMASON/Text-EtText-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Text-EtText
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
