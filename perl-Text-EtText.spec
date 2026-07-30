@@ -4,7 +4,7 @@
 Summary:	%{module} module for perl 
 Name:		perl-%{module}
 Version:	2.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Perl
 Source0:	https://cpan.metacpan.org/authors/id/J/JM/JMASON/Text-EtText-2.2.tar.gz
